@@ -1,0 +1,89 @@
+body {
+	background-color: #E4F1FE;
+	background-image: url("coffee.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 5%;
+	margin: 0;}
+
+h1   {
+	color: #34495E;
+	font-family: cursive;
+	font-size: 300%;
+
+}
+
+h2 {
+	color: #F38181;
+	font-family: 微軟正黑體
+	font-size: 32px;
+	border: 3px solid #22313F;
+	padding: 15px;
+}
+/* h3 地區標題 EX: 東部北部*/
+h3 {
+	background: #FCE38A;
+	color: #22313F;
+	font-family: 微軟正黑體;
+	border-radius: 3px 3px 0 0;
+	padding: 10px 20px;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 25%;
+}
+
+tr:hover {background-color: #FECEA8}
+
+th , td {
+	border-bottom:2px solid gray;
+	text-align: center;
+	padding: 15px
+}
+
+div {
+	margin-top: 20px;
+	border: 2px solid red;
+	padding: 15px;
+	width: 25%;
+}
+
+div.fixed{
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	border: 5px solid gray;
+	width: 10%;
+	padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFC8C8;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+li {
+	float: left;
+}
+/* float: left >變水平的*/
+li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #FF9999;
+    color: white;
+}
